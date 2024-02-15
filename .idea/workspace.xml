@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/switchCaseExample.java" afterDir="false" />
+    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: adding example of switch statement">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_3/Exercicio5_3_A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_3/Exercicio5_3_B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_3/Exercicio5_3_C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_3/Exercicio5_3_D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_3/contexto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/contexto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/contexto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +43,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Exercicio5_3_D.executor": "Run",
+    "Application.Exercicio5_3_c.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.switchCaseExample.executor": "Run",
     "Application.whileExamples1.executor": "Run",
@@ -47,7 +55,38 @@
     "onboarding.tips.debug.path": "C:/Users/Maumaus/Documents/estudos/java/livro-java-como-programar/src/main/java/org/maumas/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.switchCaseExample">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maumaus\Documents\estudos\java\livro-java-como-programar\src\main\java\org\maumas\ZFazendoADiferencaExercicios\capitulo5\exercicios5_3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Exercicio5_3_D">
+    <configuration name="Exercicio5_3_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.ZFazendoADiferencaExercicios.capitulo5.exercicios5_3.Exercicio5_3_C" />
+      <module name="livro-java-como-programar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.maumas.ZFazendoADiferencaExercicios.capitulo5.exercicios5_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio5_3_D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.ZFazendoADiferencaExercicios.capitulo5.exercicios5_3.Exercicio5_3_D" />
+      <module name="livro-java-como-programar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.maumas.ZFazendoADiferencaExercicios.capitulo5.exercicios5_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.maumas.Acapitulo2.HelloWorld" />
       <module name="livro-java-como-programar" />
@@ -89,6 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercicio5_3_D" />
+        <item itemvalue="Application.Exercicio5_3_C" />
         <item itemvalue="Application.switchCaseExample" />
         <item itemvalue="Application.whileExamples1" />
         <item itemvalue="Application.HelloWorld" />
@@ -120,11 +161,20 @@
       <option name="project" value="LOCAL" />
       <updated>1707926198385</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: adding example of switch statement">
+      <option name="closed" value="true" />
+      <created>1707928694747</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707928694747</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="feat: adding example of switch statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adding example of switch statement" />
   </component>
 </project>

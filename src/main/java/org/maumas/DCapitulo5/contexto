@@ -1,3 +1,48 @@
 introdução sobre estrututuras de repetição
 
 -- do while, switch.
+
+-------------
+
+-- break e continue
+
+- continue
+
+    em for, while e do while continua com a proxima iteração do loop;
+
+
+--------------------------------
+
+- operadores condicionais
+		  statements
+	  - if
+	  - if else
+	  - operador ternário (boolean ? if true - > return expressão : else -> return expressão)
+	  - switch case
+	  ---------
+	  - ==
+	  - !=
+	  - >
+	  - <
+	  - >=
+	  - <=
+
+- operações aritméticas
+		Incremento
+	  - int++ | ++int | int (+,-,multiplicação,/,%)= number
+
+
+- loops
+	 - for
+	 - for mnelhorado
+	 - while
+	 - do while
+	 -
+
+- operadores lógicos
+	- &&
+	- ||
+	- & -> exatamente igual o &&, contudo avalia todas as condições, ou seja não finaliza a avaliação caso uma das condições sejam falsas
+	- |
+	- ^ -> (boolean ^ boolean) -> obrigatoriamente uma tem que ser false e outra true
+	- !
