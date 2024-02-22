@@ -84,22 +84,6 @@ Maximize sua utilização de repetição (com instruções for aninhadas) e mini
 5.24 para ler um número ímpar no intervalo 1 a 19 para especificar o número de linhas no losango.
 Seu programa então deve exibir um losango do tamanho apropriado.
 
-5.26 Uma crítica à instrução break e à instrução continue é que cada uma é desestruturada.
-Na verdade, essas instruções sempre podem ser substituídas por instruções estruturadas,
-embora fazer isso possa ser difícil.
-Descreva de maneira geral como você removeria qualquer instrução break de um loop em um programa e a
-substituiria por alguma equivalente estruturada. [Dica: a instrução break sai de um loop do corpo do loop.
-A outra maneira de sair de um loop é falhando no teste de continuação do loop.
-Considere a possibilidade de utilizar no teste de continuação do loop um segundo teste que indica
-“saída prévia por causa de uma condição ‘break’ ”.]
-Utilize a técnica que você desenvolve aqui para remover a instrução break do aplicativo na Figura 5.13.
-
-5.29 (A canção “The Twelve Days of Christmas”) Escreva um aplicativo que utiliza instruções de repetição e
-switch para imprimir a canção “The Twelve Days of Christmas”.
-Uma instrução switch deve ser utilizada para imprimir o dia (“primeiro”, “segundo” etc.).
-Uma instrução switch separada deve ser utilizada para imprimir o restante de cada verso.
-Visite o site en.wikipedia.org/wiki/ The_Twelve_Days_of_Christmas_(song) para obter a letra da música.
-
 5.30 (Classe AutoPolicy modificada) Modifique a classe AutoPolicy na Figura 5.11 para
 validar os códigos de estado de duas letras para os estados do nordeste dos EUA.
 Os códigos são: CT para Connecticut,
