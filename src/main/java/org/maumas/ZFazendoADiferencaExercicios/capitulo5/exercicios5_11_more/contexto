@@ -119,19 +119,5 @@ se responder quatro, imprima “Muito bom”;
 se responder três ou menos, imprima “É o momento de aprimorar seu conhecimento sobre o aquecimento global”
 e inclua uma lista de alguns sites onde você encontrou os fatos.
 
-5.32 (Alternativas para o planejamento tributário; o “Imposto justo”)
-Há muitas propostas para tornar a tributação mais justa.
-Verifique a iniciativa FairTax norte-americana em www.fairtax.org. Pesquise como o FairTax proposto funciona.
-Uma sugestão é eliminar impostos de renda e a maioria dos outros impostos a favor de um imposto de consumo de 23% sobre todos os produtos e serviços que você compra.
-Alguns oponentes do FairTax questionam o percentual de 23% e afirmam que, por causa da maneira como o imposto é calculado, seria mais exato dizer que a taxa é 30% — verifique isso cuidadosamente.
-Escreva um programa que peça ao usuário para inserir despesas nas várias categorias de despesas que ele tem
-(por exemplo, moradia, alimentação, vestuário, transporte, educação, assistência médica e férias) e então imprima o FairTax estimado que a pessoa pagaria.
-
-5.33 (Crescimento da base de usuários do Facebook) De acordo com o CNNMoney.com,
-o Facebook alcançou um bilhão de usuários em outubro de 2012.
-Usando a técnica de crescimento composto que você aprendeu na Figura 5.6 e supondo que a base de usuários cresça a uma taxa de 4% ao mês,
-quantos meses levarão para que o Facebook aumente sua base de usuários para 1,5 bilhão?
-Quantos meses serão necessários para que o Facebook expanda sua base de usuários para dois bilhões?
-
 
 
