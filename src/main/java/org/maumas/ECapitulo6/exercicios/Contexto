@@ -42,21 +42,12 @@ c) 6, 10, 14, 18, 22.
 
 baseexponente
 
-Por exemplo, integerPower(3, 4) calcula 34 (ou 3 * 3 * 3 * 3).
+Por exemplo, integerPower(3, 4) calcula 3^4 (ou 3 * 3 * 3 * 3).
 Suponha que exponent seja um inteiro não zero, positivo, e base, um inteiro.
 Use uma instrução for ou while para controlar o cálculo.
 Não utilize métodos da classe Math.
 Incorpore esse método a um aplicativo que lê os valores inteiros
 para base e exponent e realiza o cálculo com o método integerPower.
-
-6.15 (Cálculos de hipotenusa) Defina um método hypotenuse que calcula a
-hipotenusa de um triângulo retângulo quando são dados os comprimentos dos outros dois lados.
-O método deve tomar dois argumentos do tipo double e retornar a hipotenusa como um double.
-Incorpore esse método a um aplicativo que lê valores para side1 e side2 e realiza o cálculo com o método hypotenuse.
-Utilize os métodos Math pow e sqrt para determinar o tamanho da hipotenusa de cada um dos triângulos na Figura 6.15.
-[Observação: a classe Math também fornece o método hypot para realizar esse cálculo.]
-
-<Ver Imagem -> figura 6.15>
 
 6.16 (Múltiplos) Escreva um método isMultiple que determina um par de inteiros se o
 segundo inteiro for um múltiplo do primeiro.
