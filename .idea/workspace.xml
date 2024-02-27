@@ -4,29 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: mais exercicios do capitulo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/fazendoADiferenca5_33/CrescimentoBaseFacebook.java" afterDir="false" />
+    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: alterando para pacotes corretos">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/Exemplos/NumeroAleatorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AA6_7/MathValores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AB6_8/TaxaEstacionamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AC_9/ArredondamentoDeNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/Contexto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo6/Contexto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/AA5_11/MenorNumero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/AA5_11/MenorNumero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/AB5_12/ProdutoNumeroInteiroImpares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/AB5_12/ProdutoNumeroInteiroImpares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/AC5_13/Fatorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/AC5_13/Fatorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/AD5_14/JurosCompostosModificado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/AD5_14/JurosCompostosModificado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/AE5_15/ImpressaoTriangulos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/AE5_15/ImpressaoTriangulos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/AF5_16/GraficosDeBarras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/AF5_16/GraficosDeBarras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/AG5_17/TestProdutos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/AG5_17/TestProdutos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/AH5_18/JurosCompostoModificado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/AH5_18/JurosCompostoModificado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/AI5_21/TriangulosPitagoricos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/AI5_21/TriangulosPitagoricos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/AM5_23/LeiDeMorgan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/AM5_23/LeiDeMorgan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/AN5_24/LosangoAsterisco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/AN5_24/LosangoAsterisco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/AO5_25/LosangoAlterado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/AO5_25/LosangoAlterado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/AP5_30/AutoPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/AP5_30/AutoPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/AP5_30/TestPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/AP5_30/TestPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/contexto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/contexto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_3/Exercicio5_3_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/exercicios5_3/Exercicio5_3_A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_3/Exercicio5_3_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/exercicios5_3/Exercicio5_3_B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_3/Exercicio5_3_C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/exercicios5_3/Exercicio5_3_C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_3/Exercicio5_3_D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/exercicios5_3/Exercicio5_3_D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_3/contexto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/DCapitulo5/exercicios5_3/contexto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/contexto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/fazendoADiferenca5_31/contexto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/fazendoADiferenca5_31/Pergunta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo5/exercicios5_11_more/fazendoADiferenca5_31/Pergunta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AquescimentoGlobal.executor": "Run",
+    "Application.ArredondamentoDeNumeros.executor": "Run",
     "Application.CrescimentoBaseFacebook.executor": "Run",
     "Application.Exercicio5_3_D.executor": "Run",
     "Application.Exercicio5_3_c.executor": "Run",
@@ -70,8 +58,11 @@
     "Application.LeiDeMorgan.executor": "Run",
     "Application.LosangoAlterado.executor": "Run",
     "Application.LosangoAsterisco.executor": "Run",
+    "Application.MathValores.executor": "Run",
     "Application.MenorNumero.executor": "Run",
     "Application.ProdutoNumeroInteiroImpares.executor": "Run",
+    "Application.TEst1.executor": "Run",
+    "Application.TaxaEstacionamento.executor": "Run",
     "Application.TestPolicy.executor": "Run",
     "Application.TestProdutos.executor": "Run",
     "Application.TriangulosPitagoricos.executor": "Run",
@@ -88,16 +79,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maumaus\Documents\estudos\java\livro-java-como-programar\src\main\java\org\maumas\ZFazendoADiferencaExercicios\capitulo5\exercicios5_11_more\fazendoADiferenca5_31" />
       <recent name="C:\Users\Maumaus\Documents\estudos\java\livro-java-como-programar\src\main\java\org\maumas\ZFazendoADiferencaExercicios\capitulo5\exercicios5_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CrescimentoBaseFacebook">
-    <configuration name="AquescimentoGlobal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.ZFazendoADiferencaExercicios.capitulo5.exercicios5_11_more.fazendoADiferenca5_31.AquescimentoGlobal" />
+  <component name="RunManager" selected="Application.ArredondamentoDeNumeros">
+    <configuration name="ArredondamentoDeNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AC_9.ArredondamentoDeNumeros" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.ZFazendoADiferencaExercicios.capitulo5.exercicios5_11_more.fazendoADiferenca5_31.*" />
+          <option name="PATTERN" value="org.maumas.ECapitulo6.exercicios.AC_9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LosangoAlterado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.ZFazendoADiferencaExercicios.capitulo5.exercicios5_11_more.AO5_25.LosangoAlterado" />
+    <configuration name="MathValores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AA6_7.MathValores" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.ZFazendoADiferencaExercicios.capitulo5.exercicios5_11_more.AO5_25.*" />
+          <option name="PATTERN" value="org.maumas.ECapitulo6.exercicios.AA6_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LosangoAsterisco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.ZFazendoADiferencaExercicios.capitulo5.exercicios5_11_more.AN5_24.LosangoAsterisco" />
+    <configuration name="TEst1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.TEst1" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.ZFazendoADiferencaExercicios.capitulo5.exercicios5_11_more.AN5_24.*" />
+          <option name="PATTERN" value="org.maumas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPolicy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.ZFazendoADiferencaExercicios.capitulo5.exercicios5_11_more.AP5_30.TestPolicy" />
+    <configuration name="TaxaEstacionamento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AB6_8.TaxaEstacionamento" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.ZFazendoADiferencaExercicios.capitulo5.exercicios5_11_more.AP5_30.*" />
+          <option name="PATTERN" value="org.maumas.ECapitulo6.exercicios.AB6_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArredondamentoDeNumeros" />
+        <item itemvalue="Application.TaxaEstacionamento" />
+        <item itemvalue="Application.MathValores" />
+        <item itemvalue="Application.TEst1" />
         <item itemvalue="Application.CrescimentoBaseFacebook" />
-        <item itemvalue="Application.AquescimentoGlobal" />
-        <item itemvalue="Application.TestPolicy" />
-        <item itemvalue="Application.LosangoAlterado" />
-        <item itemvalue="Application.LosangoAsterisco" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708614887658</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: alterando para pacotes corretos">
+      <option name="closed" value="true" />
+      <created>1708615828657</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708615828657</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,6 +242,7 @@
     <MESSAGE value="feat: exercicios capitulo" />
     <MESSAGE value="feat: exercicios livro java, losango alterado" />
     <MESSAGE value="feat: mais exercicios do capitulo" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: mais exercicios do capitulo" />
+    <MESSAGE value="feat: alterando para pacotes corretos" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: alterando para pacotes corretos" />
   </component>
 </project>

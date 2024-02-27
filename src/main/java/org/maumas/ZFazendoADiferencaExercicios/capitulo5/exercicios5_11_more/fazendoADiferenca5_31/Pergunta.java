@@ -4,7 +4,6 @@ public class Pergunta {
 
     private String contexto;
     private String[] perguntas;
-
     private int respostaCorreta;
 
     private Pergunta(String contexto, String[] perguntas, int respostaCorreta) {
