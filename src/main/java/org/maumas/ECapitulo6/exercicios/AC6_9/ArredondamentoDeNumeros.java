@@ -1,4 +1,4 @@
-package org.maumas.ECapitulo6.exercicios.AC_9;
+package org.maumas.ECapitulo6.exercicios.AC6_9;
 
 import java.util.Scanner;
 
