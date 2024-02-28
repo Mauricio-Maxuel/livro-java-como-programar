@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: exericicios numeros aleatorios">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AF6_14/Exponenciacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AG6_16/Multiplo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AH6_17/Par.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AI6_18/QuadradoAsteriscos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AM6_19/QuadradoModificado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AN6_20/AreaCirculo.java" afterDir="false" />
+    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: mais exercicios">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AO6_21/SeparandoDigitos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AP6_22/ConversorTemperatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AQ6_23/LocalizeOMinimo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/Contexto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/Contexto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +44,7 @@
     "Application.AquescimentoGlobal.executor": "Run",
     "Application.AreaCirculo.executor": "Run",
     "Application.ArredondamentoDeNumeros.executor": "Run",
+    "Application.ConversorTemperatura.executor": "Run",
     "Application.CrescimentoBaseFacebook.executor": "Run",
     "Application.Exercicio5_3_D.executor": "Run",
     "Application.Exercicio5_3_c.executor": "Run",
@@ -57,6 +55,7 @@
     "Application.ImpressaoTriangulos.executor": "Run",
     "Application.JurosCompostosModificado.executor": "Run",
     "Application.LeiDeMorgan.executor": "Run",
+    "Application.LocalizeOMinimo.executor": "Run",
     "Application.LosangoAlterado.executor": "Run",
     "Application.LosangoAsterisco.executor": "Run",
     "Application.MathValores.executor": "Run",
@@ -67,6 +66,7 @@
     "Application.ProdutoNumeroInteiroImpares.executor": "Run",
     "Application.QuadradoAsteriscos.executor": "Run",
     "Application.QuadradoModificado.executor": "Run",
+    "Application.SeparandoDigitos.executor": "Run",
     "Application.TEst1.executor": "Run",
     "Application.TaxaEstacionamento.executor": "Run",
     "Application.TestPolicy.executor": "Run",
@@ -90,7 +90,7 @@
       <recent name="C:\Users\Maumaus\Documents\estudos\java\livro-java-como-programar\src\main\java\org\maumas\ZFazendoADiferencaExercicios\capitulo5\exercicios5_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AreaCirculo">
+  <component name="RunManager" selected="Application.LocalizeOMinimo">
     <configuration name="AreaCirculo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AN6_20.AreaCirculo" />
       <module name="livro-java-como-programar" />
@@ -104,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Multiplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AG6_16.Multiplo" />
+    <configuration name="ConversorTemperatura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AP6_22.ConversorTemperatura" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.ECapitulo6.exercicios.AG6_16.*" />
+          <option name="PATTERN" value="org.maumas.ECapitulo6.exercicios.AP6_22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,25 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Par" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AH6_17.Par" />
+    <configuration name="LocalizeOMinimo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AQ6_23.LocalizeOMinimo" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.ECapitulo6.exercicios.AH6_17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuadradoAsteriscos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AI6_18.QuadradoAsteriscos" />
-      <module name="livro-java-como-programar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.maumas.ECapitulo6.exercicios.AI6_18.*" />
+          <option name="PATTERN" value="org.maumas.ECapitulo6.exercicios.AQ6_23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,13 +143,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SeparandoDigitos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AO6_21.SeparandoDigitos" />
+      <module name="livro-java-como-programar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.maumas.ECapitulo6.exercicios.AO6_21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LocalizeOMinimo" />
+        <item itemvalue="Application.ConversorTemperatura" />
+        <item itemvalue="Application.SeparandoDigitos" />
         <item itemvalue="Application.AreaCirculo" />
         <item itemvalue="Application.QuadradoModificado" />
-        <item itemvalue="Application.QuadradoAsteriscos" />
-        <item itemvalue="Application.Par" />
-        <item itemvalue="Application.Multiplo" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709060129343</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: mais exercicios">
+      <option name="closed" value="true" />
+      <created>1709068302514</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709068302514</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +287,7 @@
     <MESSAGE value="feat: alterando para pacotes corretos" />
     <MESSAGE value="feat: alguns exercicios do capitulo 6" />
     <MESSAGE value="feat: exericicios numeros aleatorios" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: exericicios numeros aleatorios" />
+    <MESSAGE value="feat: mais exercicios" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: mais exercicios" />
   </component>
 </project>
