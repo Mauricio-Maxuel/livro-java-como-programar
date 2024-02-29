@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="chore: adicionando dependencia test FP">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AR6_24/NumeroPerfeito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AS6_25/NumerosPrimos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AT6_26/InvertendoDigitos.java" afterDir="false" />
+    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: adicionando alguns exercicios">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AU6_27/MaximoDivisorComum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/Contexto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/Contexto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +57,7 @@
     "Application.LosangoAlterado.executor": "Run",
     "Application.LosangoAsterisco.executor": "Run",
     "Application.MathValores.executor": "Run",
+    "Application.MaximoDivisorComum.executor": "Run",
     "Application.MenorNumero.executor": "Run",
     "Application.Multiplo.executor": "Run",
     "Application.NumeroAleatoriosEscalonado.executor": "Run",
@@ -93,20 +91,7 @@
       <recent name="C:\Users\Maumaus\Documents\estudos\java\livro-java-como-programar\src\main\java\org\maumas\ZFazendoADiferencaExercicios\capitulo5\exercicios5_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InvertendoDigitos">
-    <configuration name="ConversorTemperatura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AP6_22.ConversorTemperatura" />
-      <module name="livro-java-como-programar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.maumas.ECapitulo6.exercicios.AP6_22.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaximoDivisorComum">
     <configuration name="InvertendoDigitos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AT6_26.InvertendoDigitos" />
       <module name="livro-java-como-programar" />
@@ -126,6 +111,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.maumas.ECapitulo6.exercicios.AQ6_23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximoDivisorComum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AU6_27.MaximoDivisorComum" />
+      <module name="livro-java-como-programar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.maumas.ECapitulo6.exercicios.AU6_27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximoDivisorComum" />
         <item itemvalue="Application.InvertendoDigitos" />
         <item itemvalue="Application.NumerosPrimos" />
         <item itemvalue="Application.NumeroPerfeito" />
         <item itemvalue="Application.LocalizeOMinimo" />
-        <item itemvalue="Application.ConversorTemperatura" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709137206219</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: adicionando alguns exercicios">
+      <option name="closed" value="true" />
+      <created>1709217874006</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709217874006</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,7 +315,8 @@
     <MESSAGE value="feat: mais exercicios" />
     <MESSAGE value="feat: adicionando mais exercicios" />
     <MESSAGE value="chore: adicionando dependencia test FP" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: adicionando dependencia test FP" />
+    <MESSAGE value="feat: adicionando alguns exercicios" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionando alguns exercicios" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
