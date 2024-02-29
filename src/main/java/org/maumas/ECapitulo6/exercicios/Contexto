@@ -140,7 +140,7 @@ Por exemplo, dado o número 7.631, o método deve retornar 1.367.
 Incorpore o método a um aplicativo que lê um valor a partir da entrada fornecida pelo usuário e exibe o resultado.
 
 6.27 (Máximo divisor comum) O máximo divisor comum (MDC) de dois inteiros é o maior inteiro
-que é divisível por cada um dos dois nú- meros.
+que é divisível por cada um dos dois números.
 Escreva um método mdc que retorna o máximo divisor comum de dois inteiros.
 [Dica: você poderia querer utilizar o algoritmo de Euclides.
 Você pode encontrar informações sobre isso em en.wikipedia.org/wiki/Euclidean_algorithm.]
