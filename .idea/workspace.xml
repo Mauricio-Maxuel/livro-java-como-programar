@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: exercicio MDC">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AV6_28/PontosDeQualidadeAluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AW6_29/CaraCoroa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AX6_30/AdivinheNumero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AY6_31/AdivinheAModificaoNumero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/AZ_32/DistanciaEntrePontos.java" afterDir="false" />
+    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: exercicios regulares capitulo 6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo6/A6_35/InstrucaoAssistida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo6/A6_36/InstrucaoAssistidaReduzindoFadiga.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/Contexto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ECapitulo6/exercicios/Contexto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo6/Contexto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ZFazendoADiferencaExercicios/capitulo6/Contexto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +55,8 @@
     "Application.GraficosDeBarras.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.ImpressaoTriangulos.executor": "Run",
+    "Application.InstrucaoAssistida.executor": "Run",
+    "Application.InstrucaoAssistidaReduzindoFadiga.executor": "Run",
     "Application.InvertendoDigitos.executor": "Debug",
     "Application.JurosCompostosModificado.executor": "Run",
     "Application.LeiDeMorgan.executor": "Run",
@@ -101,7 +98,7 @@
       <recent name="C:\Users\Maumaus\Documents\estudos\java\livro-java-como-programar\src\main\java\org\maumas\ZFazendoADiferencaExercicios\capitulo5\exercicios5_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DistanciaEntrePontos">
+  <component name="RunManager" selected="Application.InstrucaoAssistidaReduzindoFadiga">
     <configuration name="AdivinheAModificaoNumero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AY6_31.AdivinheAModificaoNumero" />
       <module name="livro-java-como-programar" />
@@ -128,19 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CaraCoroa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AW6_29.CaraCoroa" />
-      <module name="livro-java-como-programar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.maumas.ECapitulo6.exercicios.AW6_29.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DistanciaEntrePontos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AZ_32.DistanciaEntrePontos" />
       <module name="livro-java-como-programar" />
@@ -154,12 +138,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximoDivisorComum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.ECapitulo6.exercicios.AU6_27.MaximoDivisorComum" />
+    <configuration name="InstrucaoAssistida" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.ZFazendoADiferencaExercicios.capitulo6.A6_35.InstrucaoAssistida" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.ECapitulo6.exercicios.AU6_27.*" />
+          <option name="PATTERN" value="org.maumas.ZFazendoADiferencaExercicios.capitulo6.A6_35.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstrucaoAssistidaReduzindoFadiga" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.ZFazendoADiferencaExercicios.capitulo6.A6_36.InstrucaoAssistidaReduzindoFadiga" />
+      <module name="livro-java-como-programar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.maumas.ZFazendoADiferencaExercicios.capitulo6.A6_36.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InstrucaoAssistidaReduzindoFadiga" />
+        <item itemvalue="Application.InstrucaoAssistida" />
         <item itemvalue="Application.DistanciaEntrePontos" />
         <item itemvalue="Application.AdivinheAModificaoNumero" />
         <item itemvalue="Application.AdivinheNumero" />
-        <item itemvalue="Application.CaraCoroa" />
-        <item itemvalue="Application.MaximoDivisorComum" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709221802280</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: exercicios regulares capitulo 6">
+      <option name="closed" value="true" />
+      <created>1709306563568</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709306563568</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,7 +340,8 @@
     <MESSAGE value="chore: adicionando dependencia test FP" />
     <MESSAGE value="feat: adicionando alguns exercicios" />
     <MESSAGE value="feat: exercicio MDC" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: exercicio MDC" />
+    <MESSAGE value="feat: exercicios regulares capitulo 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: exercicios regulares capitulo 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
