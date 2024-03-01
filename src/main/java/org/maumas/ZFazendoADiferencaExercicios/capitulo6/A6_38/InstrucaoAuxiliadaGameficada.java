@@ -1,9 +1,9 @@
-package org.maumas.ZFazendoADiferencaExercicios.capitulo6.A6_37;
+package org.maumas.ZFazendoADiferencaExercicios.capitulo6.A6_38;
 
 import java.security.SecureRandom;
 import java.util.Scanner;
 
-public class InstrucaoAuxiliadaPorcentagem {
+public class InstrucaoAuxiliadaGameficada {
 
     static Scanner scanner = new Scanner(System.in);
 
@@ -21,10 +21,12 @@ public class InstrucaoAuxiliadaPorcentagem {
         System.out.println("Vamos começar com multiplicação");
 
         while (quantidadeTotalRespostas == 0) {
+            System.out.println("Escolha um nível de dificuldade de 1 a 5");
+            int nivel = scanner.nextInt();
 
             while (quantidadeTotalRespostas <= 10) {
 
-                int respostaCorreta = gerarPergunta();
+                int respostaCorreta = gerarPergunta(nivel);
                 int respostaUsuario;
 
                 do {
@@ -32,14 +34,13 @@ public class InstrucaoAuxiliadaPorcentagem {
                     if (respostaUsuario != respostaCorreta) {
                         gerarMotivacao(TipoResposta.NEGATIVA);
                     }
-                    if(respostaUsuario == respostaCorreta){
+                    if (respostaUsuario == respostaCorreta) {
                         gerarMotivacao(TipoResposta.POSITIVA);
                     }
                 } while (respostaCorreta != respostaUsuario && quantidadeTotalRespostas <= 10);
             }
 
             System.out.println();
-
             trataPorcentagemAcertos();
         }
     }
@@ -57,11 +58,25 @@ public class InstrucaoAuxiliadaPorcentagem {
         quantidadeTotalRespostas = 0;
     }
 
-    public static int gerarPergunta() {
+    public static int gerarPergunta(int nivel) {
         SecureRandom secureRandom = new SecureRandom();
 
-        int numero1 = 1 + secureRandom.nextInt(10);
-        int numero2 = 1 + secureRandom.nextInt(10);
+        int dezena = 1;
+
+        for (int i = 1; i < nivel; i++) {
+            dezena *= 10;
+        }
+
+        int inicial = dezena;
+
+        int total = 0;
+        while (dezena != 0) {
+            total += dezena * 9;
+            dezena /= 10;
+        }
+
+        int numero1 = inicial + secureRandom.nextInt(total);
+        int numero2 = inicial + secureRandom.nextInt(total);
 
         System.out.println("Quanto é " + numero1 + " vezes " + numero2);
 
