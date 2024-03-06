@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: exercicio capitulo 7 e movendo algumas pastas">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exemploCartas/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exemploCartas/DeckOfCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exemploNotas/GradeBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exemploNotas/WithBidimensonalArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AA7_10/ComissaoVendas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/contexto" afterDir="false" />
+    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: wip">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AB7_12/ElimininacaoDuplicatas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AC7_14/ListaComprimentoVariavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AD7_17/JogoDados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AE7_19/SistemaReservaAerea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/contexto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/contexto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,7 @@
     "Application.ConversorTemperatura.executor": "Run",
     "Application.CrescimentoBaseFacebook.executor": "Run",
     "Application.DistanciaEntrePontos.executor": "Run",
+    "Application.ElimininacaoDuplicatas.executor": "Run",
     "Application.Exercicio5_3_D.executor": "Run",
     "Application.Exercicio5_3_c.executor": "Run",
     "Application.Exponenciacao.executor": "Run",
@@ -64,9 +65,12 @@
     "Application.InstrucaoAuxiliadaGameficada.executor": "Debug",
     "Application.InstrucaoAuxiliadaPorcentagem.executor": "Run",
     "Application.InstrucaoAuxiliadaTiposProblema.executor": "Run",
+    "Application.InstrucoesEmArrays.executor": "Run",
     "Application.InvertendoDigitos.executor": "Debug",
+    "Application.JogoDados.executor": "Run",
     "Application.JurosCompostosModificado.executor": "Run",
     "Application.LeiDeMorgan.executor": "Run",
+    "Application.ListaComprimentoVariavel.executor": "Run",
     "Application.LocalizeOMinimo.executor": "Run",
     "Application.LosangoAlterado.executor": "Run",
     "Application.LosangoAsterisco.executor": "Run",
@@ -82,6 +86,7 @@
     "Application.QuadradoAsteriscos.executor": "Run",
     "Application.QuadradoModificado.executor": "Run",
     "Application.SeparandoDigitos.executor": "Run",
+    "Application.SistemaReservaAerea.executor": "Run",
     "Application.TEst1.executor": "Run",
     "Application.TaxaEstacionamento.executor": "Run",
     "Application.Test.executor": "Run",
@@ -107,13 +112,13 @@
       <recent name="C:\Users\Maumaus\Documents\estudos\java\livro-java-como-programar\src\main\java\org\maumas\ZFazendoADiferencaExercicios\capitulo5\exercicios5_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComissaoVendas">
-    <configuration name="ComissaoVendas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.ZZFazendoADiferencaExercicios.capitulo7.exercicios.AA7_10.ComissaoVendas" />
+  <component name="RunManager" selected="Application.SistemaReservaAerea">
+    <configuration name="ElimininacaoDuplicatas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AB7_12.ElimininacaoDuplicatas" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.ZZFazendoADiferencaExercicios.capitulo7.exercicios.AA7_10.*" />
+          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AB7_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstrucaoAuxiliadaGameficada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.ZZFazendoADiferencaExercicios.capitulo6.A6_38.InstrucaoAuxiliadaGameficada" />
+    <configuration name="InstrucoesEmArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AB7_11.InstrucoesEmArrays" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.ZZFazendoADiferencaExercicios.capitulo6.A6_38.*" />
+          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AB7_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstrucaoAuxiliadaTiposProblema" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.ZZFazendoADiferencaExercicios.capitulo6.A6_39.InstrucaoAuxiliadaTiposProblema" />
+    <configuration name="JogoDados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AD7_17.JogoDados" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.ZZFazendoADiferencaExercicios.capitulo6.A6_39.*" />
+          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AD7_17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.ZZFazendoADiferencaExercicios.capitulo7.exemploCartas.Test" />
+    <configuration name="ListaComprimentoVariavel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AC7_14.ListaComprimentoVariavel" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.ZZFazendoADiferencaExercicios.capitulo7.exemploCartas.*" />
+          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AC7_14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.maumas.ZZFazendoADiferencaExercicios.capitulo7.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.ZZFazendoADiferencaExercicios.capitulo7.Test" />
+    <configuration name="SistemaReservaAerea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AE7_19.SistemaReservaAerea" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.ZZFazendoADiferencaExercicios.capitulo7.*" />
+          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AE7_19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ComissaoVendas" />
-        <item itemvalue="Application.org.maumas.ZZFazendoADiferencaExercicios.capitulo7.Test" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.InstrucaoAuxiliadaTiposProblema" />
-        <item itemvalue="Application.InstrucaoAuxiliadaGameficada" />
+        <item itemvalue="Application.SistemaReservaAerea" />
+        <item itemvalue="Application.JogoDados" />
+        <item itemvalue="Application.ListaComprimentoVariavel" />
+        <item itemvalue="Application.ElimininacaoDuplicatas" />
+        <item itemvalue="Application.InstrucoesEmArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709662238807</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="feat: wip">
+      <option name="closed" value="true" />
+      <created>1709662249756</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1709662249756</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -377,7 +390,8 @@
     <MESSAGE value="feat: fazendo a diferenca(1,2), capitulo 6" />
     <MESSAGE value="feat: adicionando solução parcial dos exercicios fazendo a diferença" />
     <MESSAGE value="feat: exercicio capitulo 7 e movendo algumas pastas" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: exercicio capitulo 7 e movendo algumas pastas" />
+    <MESSAGE value="feat: wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: wip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

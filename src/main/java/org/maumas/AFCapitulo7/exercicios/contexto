@@ -15,3 +15,59 @@ g) $800–899
 h) $900–999
 i) R$1.000
 e acima Resuma os resultados em formato tabular.
+
+7.12 (Eliminação de duplicatas) Utilize um array unidimensional para resolver o seguinte problema:
+escreva um aplicativo que insere cinco números, cada um entre 10 e 100, inclusive.
+Enquanto cada número é lido, exiba-o somente se ele não tiver uma duplicata de um número já lido.
+Cuide de tratar o “pior caso”, em que todos os cinco números são diferentes.
+Utilize o menor array possível para resolver esse problema.
+Exiba o conjunto completo de valores únicos inseridos depois que o usuário inserir cada valor novo.
+
+7.14 (Lista de argumento de comprimento variável) Escreva um aplicativo que calcula
+o produto de uma série de inteiros que são passados para método product utilizando uma lista de argumentos de comprimento variável.
+Teste seu método com várias chamadas, cada uma com um número diferente de argumentos.
+
+7.17 (Jogo de dados) Escreva um aplicativo para simular o lançamento de dois dados.
+O aplicativo deve utilizar um objeto de classe Random, uma vez para lançar o primeiro dado e novamente para lançar o segundo dado.
+A soma dos dois valores deve então ser calculada.
+Cada dado pode mostrar um valor inteiro de 1 a 6,
+portanto a soma dos valores irá variar de 2 a 12,
+com 7 sendo a soma mais frequente e 2 e 12, as somas menos frequentes.
+A Figura 7.28 mostra as 36 possíveis combinações de dois dados.
+Seu aplicativo deve lançar o dado 36.000.000 vezes.
+Utilize um array unidimensional para contar o número de vezes que cada possível soma aparece.
+Exiba os resultados em formato tabular.
+
+7.19 (Sistema de reservas de passagens aéreas) Uma pequena companhia aérea acabou de comprar um computador para seu novo sistema automatizado de reservas.
+Você foi solicitado a desenvolver o novo sistema.
+Você escreverá um aplicativo para atribuir assentos em cada voo da companhia aérea (capacidade: 10 assentos).
+Seu aplicativo deve exibir as seguintes alternativas: Please type 1 for First Class e Please type 2 for Economy.
+[Por favor digite 1 para Primeira Classe e digite 2 para Classe Econômica].
+Se o usuário digitar 1, seu aplicativo deve atribuir assentos na primeira classe (poltronas 1 a 5).
+Se o usuário digitar 2, seu aplicativo deve atribuir um assento na classe econômica (poltronas 6 a 10).
+Seu aplicativo deve exibir um cartão de embarque indicando o número da poltrona da pessoa e se ela está na primeira classe ou na classe econômica.
+Utilize um array unidimensional do tipo primitivo boolean para representar o gráfico de assentos do avião.
+Inicialize todos os elementos do array como false para indicar que todas as poltronas estão desocupadas.
+À medida que cada assento é atribuído, configure o elemento correspondente do array como true para indicar que o assento não está mais disponível.
+Seu aplicativo nunca deve atribuir uma poltrona que já foi reservada.
+Quando a classe econômica estiver lotada, seu aplicativo deve perguntar à pessoa se ela aceita ficar na primeira classe (e vice-versa).
+Se sim, faça a atribuição apropriada de assento.
+Se não, exiba a mensagem "Next flight leaves in 3 hours" [O próximo voo parte em 3 horas].
+
+7.20 (Vendas totais) Utilize um array bidimensional para resolver o seguinte problema:
+uma empresa tem quatro equipes de vendas (1 a 4) que vendem cinco produtos diferentes (1 a 5).
+Uma vez por dia, cada vendedor passa uma nota de cada tipo de produto diferente vendido.
+Cada nota contém o seguinte:
+a) O número do vendedor
+b) O número do produto
+c) O valor total em reais desse produto vendido nesse dia Portanto, cada vendedor passa entre 0 e 5 notas de vendas por dia.
+Suponha que as informações a partir de todas as notas durante o último mês estejam disponíveis.
+Escreva um aplicativo que leia todas essas informações sobre as vendas do último mês e resuma as vendas totais por vendedor e por produto.
+Todos os totais devem ser armazenados no array bidimensional sales.
+Depois de processar todas as informações do último mês,
+exiba os resultados em formato tabular,
+com cada coluna representando um vendedor particular e cada linha representando um produto particular.
+Some cada linha para obter o total das vendas de cada produto no último mês.
+Some cada coluna para obter o total de vendas por vendedor no último mês.
+Sua saída tabular deve incluir esses totais cruzados à direita das linhas totalizadas e na parte inferior das colunas totalizadas.
+
