@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: wip">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AB7_12/ElimininacaoDuplicatas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AC7_14/ListaComprimentoVariavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AD7_17/JogoDados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AE7_19/SistemaReservaAerea.java" afterDir="false" />
+    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: alguns exercicios capitulo 7">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AF7_20/GraficoTartarugaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AF7_20/Tartaruga.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/contexto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/contexto" afterDir="false" />
     </list>
@@ -57,6 +55,8 @@
     "Application.Exercicio5_3_c.executor": "Run",
     "Application.Exponenciacao.executor": "Run",
     "Application.Fatorial.executor": "Run",
+    "Application.GraficoTartaruaTest.executor": "Run",
+    "Application.GraficoTartarugaTest.executor": "Run",
     "Application.GraficosDeBarras.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.ImpressaoTriangulos.executor": "Run",
@@ -112,7 +112,7 @@
       <recent name="C:\Users\Maumaus\Documents\estudos\java\livro-java-como-programar\src\main\java\org\maumas\ZFazendoADiferencaExercicios\capitulo5\exercicios5_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SistemaReservaAerea">
+  <component name="RunManager" selected="Application.GraficoTartarugaTest">
     <configuration name="ElimininacaoDuplicatas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AB7_12.ElimininacaoDuplicatas" />
       <module name="livro-java-como-programar" />
@@ -126,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstrucoesEmArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AB7_11.InstrucoesEmArrays" />
+    <configuration name="GraficoTartarugaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AF7_20.GraficoTartarugaTest" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AB7_12.*" />
+          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AF7_20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraficoTartarugaTest" />
         <item itemvalue="Application.SistemaReservaAerea" />
         <item itemvalue="Application.JogoDados" />
         <item itemvalue="Application.ListaComprimentoVariavel" />
         <item itemvalue="Application.ElimininacaoDuplicatas" />
-        <item itemvalue="Application.InstrucoesEmArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +357,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709662249756</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feat: alguns exercicios capitulo 7">
+      <option name="closed" value="true" />
+      <created>1709738645125</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1709738645125</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -391,7 +399,8 @@
     <MESSAGE value="feat: adicionando solução parcial dos exercicios fazendo a diferença" />
     <MESSAGE value="feat: exercicio capitulo 7 e movendo algumas pastas" />
     <MESSAGE value="feat: wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: wip" />
+    <MESSAGE value="feat: alguns exercicios capitulo 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: alguns exercicios capitulo 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -420,6 +429,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/maumas/ZZFazendoADiferencaExercicios/capitulo6/A6_38/InstrucaoAuxiliadaGameficada.java</url>
           <line>63</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AF7_20/GraficoTartarugaTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
