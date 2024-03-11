@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: exercicio tartaruga">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AG7_27/CrivoEratostenes.java" afterDir="false" />
+    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: exercicio crivo de eratóstenes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AH7_28/CorridaTartarugaLebreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AH7_28/Habbit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AH7_28/Turtle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/contexto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/contexto" afterDir="false" />
     </list>
@@ -47,6 +49,7 @@
     "Application.CaraCoroa.executor": "Run",
     "Application.ComissaoVendas.executor": "Run",
     "Application.ConversorTemperatura.executor": "Run",
+    "Application.CorridaTartarugaLebreTest.executor": "Run",
     "Application.CrescimentoBaseFacebook.executor": "Run",
     "Application.CrivoEratostenes.executor": "Run",
     "Application.DistanciaEntrePontos.executor": "Run",
@@ -112,7 +115,20 @@
       <recent name="C:\Users\Maumaus\Documents\estudos\java\livro-java-como-programar\src\main\java\org\maumas\ZFazendoADiferencaExercicios\capitulo5\exercicios5_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CrivoEratostenes">
+  <component name="RunManager" selected="Application.CorridaTartarugaLebreTest">
+    <configuration name="CorridaTartarugaLebreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AH7_28.CorridaTartarugaLebreTest" />
+      <module name="livro-java-como-programar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AH7_28.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CrivoEratostenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AG7_27.CrivoEratostenes" />
       <module name="livro-java-como-programar" />
@@ -152,19 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaComprimentoVariavel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AC7_14.ListaComprimentoVariavel" />
-      <module name="livro-java-como-programar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AC7_14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SistemaReservaAerea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AE7_19.SistemaReservaAerea" />
       <module name="livro-java-como-programar" />
@@ -180,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CorridaTartarugaLebreTest" />
         <item itemvalue="Application.CrivoEratostenes" />
         <item itemvalue="Application.GraficoTartarugaTest" />
         <item itemvalue="Application.SistemaReservaAerea" />
         <item itemvalue="Application.JogoDados" />
-        <item itemvalue="Application.ListaComprimentoVariavel" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +376,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709915083652</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat: exercicio crivo de eratóstenes">
+      <option name="closed" value="true" />
+      <created>1710172719557</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1710172719557</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,7 +420,8 @@
     <MESSAGE value="feat: wip" />
     <MESSAGE value="feat: alguns exercicios capitulo 7" />
     <MESSAGE value="feat: exercicio tartaruga" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: exercicio tartaruga" />
+    <MESSAGE value="feat: exercicio crivo de eratóstenes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: exercicio crivo de eratóstenes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
