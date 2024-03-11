@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: alguns exercicios capitulo 7">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AF7_20/GraficoTartarugaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AF7_20/Tartaruga.java" afterDir="false" />
+    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: exercicio tartaruga">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AG7_27/CrivoEratostenes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/contexto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/contexto" afterDir="false" />
     </list>
@@ -49,6 +48,7 @@
     "Application.ComissaoVendas.executor": "Run",
     "Application.ConversorTemperatura.executor": "Run",
     "Application.CrescimentoBaseFacebook.executor": "Run",
+    "Application.CrivoEratostenes.executor": "Run",
     "Application.DistanciaEntrePontos.executor": "Run",
     "Application.ElimininacaoDuplicatas.executor": "Run",
     "Application.Exercicio5_3_D.executor": "Run",
@@ -112,13 +112,13 @@
       <recent name="C:\Users\Maumaus\Documents\estudos\java\livro-java-como-programar\src\main\java\org\maumas\ZFazendoADiferencaExercicios\capitulo5\exercicios5_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GraficoTartarugaTest">
-    <configuration name="ElimininacaoDuplicatas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AB7_12.ElimininacaoDuplicatas" />
+  <component name="RunManager" selected="Application.CrivoEratostenes">
+    <configuration name="CrivoEratostenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AG7_27.CrivoEratostenes" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AB7_12.*" />
+          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AG7_27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CrivoEratostenes" />
         <item itemvalue="Application.GraficoTartarugaTest" />
         <item itemvalue="Application.SistemaReservaAerea" />
         <item itemvalue="Application.JogoDados" />
         <item itemvalue="Application.ListaComprimentoVariavel" />
-        <item itemvalue="Application.ElimininacaoDuplicatas" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709738645125</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="feat: exercicio tartaruga">
+      <option name="closed" value="true" />
+      <created>1709915083652</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1709915083652</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,7 +408,8 @@
     <MESSAGE value="feat: exercicio capitulo 7 e movendo algumas pastas" />
     <MESSAGE value="feat: wip" />
     <MESSAGE value="feat: alguns exercicios capitulo 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: alguns exercicios capitulo 7" />
+    <MESSAGE value="feat: exercicio tartaruga" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: exercicio tartaruga" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -431,9 +440,9 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AF7_20/GraficoTartarugaTest.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="25" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AG7_27/CrivoEratostenes.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
