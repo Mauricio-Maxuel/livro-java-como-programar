@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: exercicio crivo de eratóstenes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AH7_28/CorridaTartarugaLebreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AH7_28/Habbit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AH7_28/Turtle.java" afterDir="false" />
+    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: exercicio LebreETartaruga">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AI7_29/FibonacciTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AM7_30/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AM7_30/DeckOfCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/contexto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/contexto" afterDir="false" />
     </list>
@@ -49,7 +49,7 @@
     "Application.CaraCoroa.executor": "Run",
     "Application.ComissaoVendas.executor": "Run",
     "Application.ConversorTemperatura.executor": "Run",
-    "Application.CorridaTartarugaLebreTest.executor": "Run",
+    "Application.CorridaTartarugaLebreTest.executor": "Debug",
     "Application.CrescimentoBaseFacebook.executor": "Run",
     "Application.CrivoEratostenes.executor": "Run",
     "Application.DistanciaEntrePontos.executor": "Run",
@@ -58,6 +58,7 @@
     "Application.Exercicio5_3_c.executor": "Run",
     "Application.Exponenciacao.executor": "Run",
     "Application.Fatorial.executor": "Run",
+    "Application.FibonacciTest.executor": "Run",
     "Application.GraficoTartaruaTest.executor": "Run",
     "Application.GraficoTartarugaTest.executor": "Run",
     "Application.GraficosDeBarras.executor": "Run",
@@ -105,17 +106,21 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Maumaus/Documents/estudos/java/livro-java-como-programar/src/main/java/org/maumas/AFCapitulo7/exercicios/AM7_30",
     "onboarding.tips.debug.path": "C:/Users/Maumaus/Documents/estudos/java/livro-java-como-programar/src/main/java/org/maumas/Main.java",
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maumaus\Documents\estudos\java\livro-java-como-programar\src\main\java\org\maumas\AFCapitulo7\exercicios\AM7_30" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Maumaus\Documents\estudos\java\livro-java-como-programar\src\main\java\org\maumas\ZFazendoADiferencaExercicios\capitulo5\exercicios5_11_more\fazendoADiferenca5_31" />
       <recent name="C:\Users\Maumaus\Documents\estudos\java\livro-java-como-programar\src\main\java\org\maumas\ZFazendoADiferencaExercicios\capitulo5\exercicios5_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CorridaTartarugaLebreTest">
+  <component name="RunManager" selected="Application.FibonacciTest">
     <configuration name="CorridaTartarugaLebreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AH7_28.CorridaTartarugaLebreTest" />
       <module name="livro-java-como-programar" />
@@ -142,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraficoTartarugaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AF7_20.GraficoTartarugaTest" />
+    <configuration name="FibonacciTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AI7_29.FibonacciTest" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AF7_20.*" />
+          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AI7_29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JogoDados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AD7_17.JogoDados" />
+    <configuration name="GraficoTartarugaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AF7_20.GraficoTartarugaTest" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AD7_17.*" />
+          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AF7_20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciTest" />
         <item itemvalue="Application.CorridaTartarugaLebreTest" />
         <item itemvalue="Application.CrivoEratostenes" />
         <item itemvalue="Application.GraficoTartarugaTest" />
         <item itemvalue="Application.SistemaReservaAerea" />
-        <item itemvalue="Application.JogoDados" />
       </list>
     </recent_temporary>
   </component>
@@ -384,7 +389,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710172719557</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="feat: exercicio LebreETartaruga">
+      <option name="closed" value="true" />
+      <created>1710176261505</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1710176261505</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -421,7 +434,8 @@
     <MESSAGE value="feat: alguns exercicios capitulo 7" />
     <MESSAGE value="feat: exercicio tartaruga" />
     <MESSAGE value="feat: exercicio crivo de eratóstenes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: exercicio crivo de eratóstenes" />
+    <MESSAGE value="feat: exercicio LebreETartaruga" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: exercicio LebreETartaruga" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -455,6 +469,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AG7_27/CrivoEratostenes.java</url>
           <line>15</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/maumas/AFCapitulo7/exercicios/AI7_29/FibonacciTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

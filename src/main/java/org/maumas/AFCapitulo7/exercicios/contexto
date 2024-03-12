@@ -151,4 +151,11 @@ Você se surpreenderá com a empolgação da sua audiência!
 Mais adiante no livro, introduziremos várias capacidades do Java, como gráficos, imagens, animação, som e multithreading.
 À medida que estudar esses recursos, você pode se divertir aprimorando sua simulação da competição entre a lebre e a tartaruga.
 
+7.29 (Série de Fibonacci) A série de Fibonacci
+0, 1, 1, 2, 3, 5, 8, 13, 21, …
+inicia-se com os termos 0 e 1 e tem a propriedade de que cada termo sucessivo é a soma dos dois termos precedentes.
+
+Escreva um método fibonacci(n) que calcule o enésimo número de Fibonacci.
+Incorpore esse método a um aplicativo que permita ao usuário inserir o valor de n.
+
 
