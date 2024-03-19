@@ -1,0 +1,99 @@
+8.4 (Classe Rectangle)
+Crie uma classe Rectangle com os atributos length e width, cada um dos quais assume o padrão de 1.
+Forneça os métodos que calculam o perímetro e a área do retângulo.
+A classe tem métodos set e get para o comprimento (length) e a largura (width).
+Os métodos set devem verificar se length e width são, cada um, números de ponto flutuante maiores
+que 0,0 e menores que 20,0.
+Escreva um programa para testar a classe Rectangle.
+
+8.11 (Números complexos)
+Crie uma classe chamada Complex para realizar aritmética com números complexos.
+Os números complexos têm a forma parteReal + parteImaginária * i onde i é – 1
+Escreva um programa para testar sua classe.
+Utilize variáveis de ponto flutuante para representar os dados private da classe.
+Forneça um construtor que permita que um objeto dessa classe seja inicializado quando ele for declarado.
+Forneça um construtor sem argumento com valores padrão caso nenhum inicializador seja fornecido.
+Forneça métodos public que realizam as seguintes operações:
+a) Somar dois números Complex: as partes reais são somadas de um lado e as partes imaginárias, de outro.
+b) Subtrair dois números Complex: a parte real do operando direito é subtraída da parte real do operando esquerdo e a parte imaginária
+do operando direito é subtraída da parte imaginária do operando esquerdo.
+c) Imprima números Complex na forma (parteReal, parteImaginária).
+
+8.13 (Conjunto de inteiros)
+Crie a classe IntegerSet.
+Cada objeto IntegerSet pode armazenar inteiros no intervalo de 0 a 100.
+O conjunto é representado por um array de booleans.
+O elemento do array a[i] é true se o inteiro i estiver no conjunto.
+O elemento do array a[j] é false se o inteiro j não estiver no conjunto.
+
+O construtor sem argumento inicializa o array como um “conjunto vazio” (isto é, todos os valores false).
+Forneça os seguintes métodos:
+o método static union cria um conjunto que é a união teórica de dois conjuntos existentes
+(isto é, um elemento do array do novo conjunto é configurado como true se esse elemento for true em qualquer um dos conjuntos
+existentes ou em ambos — caso contrário, o elemento do novo conjunto é configurado como false).
+
+O método static intersection cria um conjunto que é a interseção teórica de dois conjuntos existentes
+(isto é, um elemento do array do novo conjunto é configurado como false se esse elemento for false em qualquer um ou
+em ambos os conjuntos existentes — caso contrário, o elemento do novo conjunto é configurado como true).
+
+O método insertElement insere um novo inteiro k em um conjunto (configurando a[k] como true).
+O método deleteElement exclui o inteiro m (configurando a[m] como false).
+O método toString retorna uma String contendo um conjunto como uma lista de números separados por espaços.
+Inclua somente os elementos que estão presentes no conjunto. Utilize --- para representar um conjunto vazio.
+O método isEqualTo determina se dois conjuntos são iguais.
+
+Escreva um programa para testar a classe IntegerSet.
+Instancie vários objetos IntegerSet.
+Teste se todos os seus métodos funcionam adequadamente.
+
+8.15 (Números racionais)
+Crie uma classe chamada Rational para realizar aritmética com frações.
+Escreva um programa para testar sua classe.
+Use variáveis de inteiros para representar as variáveis de instância private da classe — o numerator e o denominator.
+
+Forneça um construtor que permita que um objeto dessa classe seja inicializado quando ele for declarado.
+O construtor deve armazenar a fração em uma forma reduzida.
+A fração 2/4 é equivalente a 1/2 e seria armazenada no objeto como 1 no numerator e 2 no denominator.
+Forneça um construtor sem argumento com valores padrão caso nenhum inicializador seja fornecido.
+
+Forneça métodos public que realizam cada uma das operações a seguir:
+a) Somar dois números Rational: o resultado da adição deve ser armazenado na forma reduzida. Implemente isso como um método static.
+b) Subtrair dois números Rational: o resultado da subtração deve ser armazenado na forma reduzida. Implemente isso como um método static.
+c) Multiplicar dois números Rational: o resultado da multiplicação deve ser armazenado na forma reduzida. Implemente isso como um método static.
+d) Dividir dois números Rational: o resultado da divisão deve ser armazenado na forma reduzida. Implemente isso como um método static.
+e) Retorne uma representação String de um número Rational na forma a/b, onde a é o numerator e b é o denominator.
+f) Retorne uma representação String de um número Rational no formato de ponto flutuante.
+(Considere a possibilidade de fornecer capacidades de formatação que permitam que o usuário da classe especifique o número de
+dígitos de precisão à direita do ponto de fração decimal.)
+
+8.16 (Classe Huge Integer)
+Crie uma classe HugeInteger que utiliza um array de 40 elementos de dígitos para armazenar inteiros com até 40 dígitos.
+Forneça os métodos parse, toString, add e subtract.
+O método parse deve receber uma String, extrair cada dígito usando o método charAt e colocar o valor inteiro equivalente de cada dígito no array de inteiros.
+
+Para comparar objetos HugeInteger, forneça os métodos a seguir: isEqualTo, isNotEqualTo, isGreaterThan, isLessThan, isGreaterThanOrEqualTo e isLessThanOrEqualTo.
+Cada um destes é um método predicado que retorna true se o relacionamento estiver contido entre os dois objetos HugeInteger e retorna false se o relacionamento não estiver contido.
+Forneça um método predicado isZero.
+
+Se você se sentir ambicioso, forneça também os métodos multiply, divide e remainder.
+[Observação: valores boolean primitivos podem ser gerados como as palavras “true” ou “false” com o especificador de formato %b.]
+
+
+8.17 (Jogo da velha)
+Crie uma classe TicTacToe que permitirá escrever um programa para reproduzir o jogo da velha.
+A classe contém um array bidimensional privado 3 por 3.
+Use um tipo enum para representar o valor em cada célula do array.
+As constantes enum devem ser nomeadas X, O e EMPTY (para uma posição que não contém X ou 0).
+
+O construtor deve inicializar os elementos do tabuleiro para EMPTY.
+Permita dois jogadores humanos.
+Para onde quer que o primeiro jogador se mova, coloque um X no quadrado especificado; coloque um O no local para o qual o segundo jogador se mover.
+\nTodo movimento deve ocorrer em um quadrado vazio.
+
+Depois de cada jogada, determine se o jogo foi ganho e se aconteceu um empate.
+Se você se sentir motivado, modifique seu programa de modo que o computador faça o movimento para um dos jogadores.
+Além disso, permita que o jogador especifique se quer ser o primeiro ou o segundo.
+Se você se sentir excepcionalmente motivado, desenvolva um programa que jogue o Tic-Tac-Toe tridimensional em uma grade 4 por 4 por 4.
+[Observação: isso é um projeto extremamente desafiador!]
+
+
