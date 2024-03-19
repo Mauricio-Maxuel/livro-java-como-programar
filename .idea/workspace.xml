@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: exercicio fibonacci">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AGCapitulo8/exercicios/AA8_04/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AGCapitulo8/exercicios/contexto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/ZZFazendoADiferencaExercicios/capitulo8/contexto" afterDir="false" />
+    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: adding simple example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AGCapitulo8/exercicios/AB8_13/IntegerSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/AGCapitulo8/exercicios/contexto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AGCapitulo8/exercicios/contexto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -443,7 +441,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710267924544</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="feat: adding simple example">
+      <option name="closed" value="true" />
+      <created>1710858117925</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1710858117926</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +488,8 @@
     <MESSAGE value="feat: exercicio crivo de eratóstenes" />
     <MESSAGE value="feat: exercicio LebreETartaruga" />
     <MESSAGE value="feat: exercicio fibonacci" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: exercicio fibonacci" />
+    <MESSAGE value="feat: adding simple example" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adding simple example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
