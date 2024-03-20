@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: adding simple example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AGCapitulo8/exercicios/AB8_13/IntegerSet.java" afterDir="false" />
+    <list default="true" id="ff2e816c-a03f-46ba-9286-da39451d7ce6" name="Changes" comment="feat: another exercise">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AGCapitulo8/exercicios/AC8_17/TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AGCapitulo8/exercicios/AC8_17/TicTacToeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maumas/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/maumas/AGCapitulo8/exercicios/contexto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maumas/AGCapitulo8/exercicios/contexto" afterDir="false" />
     </list>
@@ -53,85 +55,87 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AdivinheAModificaoNumero.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdivinheNumero.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AquescimentoGlobal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AreaCirculo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArredondamentoDeNumeros.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CaraCoroa.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComissaoVendas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConversorTemperatura.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CorridaTartarugaLebreTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CrescimentoBaseFacebook.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CrivoEratostenes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DistanciaEntrePontos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ElimininacaoDuplicatas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exercicio5_3_D.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exercicio5_3_c.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exponenciacao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fatorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FibonacciTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GraficoTartaruaTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GraficoTartarugaTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GraficosDeBarras.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImpressaoTriangulos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InstrucaoAssistida.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InstrucaoAssistidaReduzindoFadiga.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InstrucaoAuxiliadaGameficada.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.InstrucaoAuxiliadaPorcentagem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InstrucaoAuxiliadaTiposProblema.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InstrucoesEmArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InvertendoDigitos.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.JogoDados.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JurosCompostosModificado.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeiDeMorgan.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListaComprimentoVariavel.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalizeOMinimo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LosangoAlterado.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LosangoAsterisco.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MathValores.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximoDivisorComum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MenorNumero.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Multiplo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumeroAleatoriosEscalonado.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumeroPerfeito.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumerosPrimos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Par.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProdutoNumeroInteiroImpares.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuadradoAsteriscos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuadradoModificado.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeparandoDigitos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimpletronTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SistemaReservaAerea.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TEst1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaxaEstacionamento.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestPolicy.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestProdutos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TriangulosPitagoricos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.numerosAleatorios.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.maumas.ZZFazendoADiferencaExercicios.capitulo7.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.switchCaseExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.whileExamples1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SimpletronTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SimpletronTest.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SimpletronTest.test2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Maumaus/Documents/estudos/java/livro-java-como-programar/src/main/java/org/maumas/AFCapitulo7/exercicios/AM7_30&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Maumaus/Documents/estudos/java/livro-java-como-programar/src/main/java/org/maumas/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdivinheAModificaoNumero.executor": "Run",
+    "Application.AdivinheNumero.executor": "Run",
+    "Application.AquescimentoGlobal.executor": "Run",
+    "Application.AreaCirculo.executor": "Run",
+    "Application.ArredondamentoDeNumeros.executor": "Run",
+    "Application.CaraCoroa.executor": "Run",
+    "Application.ComissaoVendas.executor": "Run",
+    "Application.ConversorTemperatura.executor": "Run",
+    "Application.CorridaTartarugaLebreTest.executor": "Debug",
+    "Application.CrescimentoBaseFacebook.executor": "Run",
+    "Application.CrivoEratostenes.executor": "Run",
+    "Application.DistanciaEntrePontos.executor": "Run",
+    "Application.ElimininacaoDuplicatas.executor": "Run",
+    "Application.Exercicio5_3_D.executor": "Run",
+    "Application.Exercicio5_3_c.executor": "Run",
+    "Application.Exponenciacao.executor": "Run",
+    "Application.Fatorial.executor": "Run",
+    "Application.FibonacciTest.executor": "Run",
+    "Application.GraficoTartaruaTest.executor": "Run",
+    "Application.GraficoTartarugaTest.executor": "Run",
+    "Application.GraficosDeBarras.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Application.ImpressaoTriangulos.executor": "Run",
+    "Application.InstrucaoAssistida.executor": "Run",
+    "Application.InstrucaoAssistidaReduzindoFadiga.executor": "Run",
+    "Application.InstrucaoAuxiliadaGameficada.executor": "Debug",
+    "Application.InstrucaoAuxiliadaPorcentagem.executor": "Run",
+    "Application.InstrucaoAuxiliadaTiposProblema.executor": "Run",
+    "Application.InstrucoesEmArrays.executor": "Run",
+    "Application.InvertendoDigitos.executor": "Debug",
+    "Application.JogoDados.executor": "Run",
+    "Application.JurosCompostosModificado.executor": "Run",
+    "Application.LeiDeMorgan.executor": "Run",
+    "Application.ListaComprimentoVariavel.executor": "Run",
+    "Application.LocalizeOMinimo.executor": "Run",
+    "Application.LosangoAlterado.executor": "Run",
+    "Application.LosangoAsterisco.executor": "Run",
+    "Application.MathValores.executor": "Run",
+    "Application.MaximoDivisorComum.executor": "Run",
+    "Application.MenorNumero.executor": "Run",
+    "Application.Multiplo.executor": "Run",
+    "Application.NumeroAleatoriosEscalonado.executor": "Run",
+    "Application.NumeroPerfeito.executor": "Run",
+    "Application.NumerosPrimos.executor": "Run",
+    "Application.Par.executor": "Run",
+    "Application.ProdutoNumeroInteiroImpares.executor": "Run",
+    "Application.QuadradoAsteriscos.executor": "Run",
+    "Application.QuadradoModificado.executor": "Run",
+    "Application.SeparandoDigitos.executor": "Run",
+    "Application.SimpletronTest.executor": "Run",
+    "Application.SistemaReservaAerea.executor": "Run",
+    "Application.TEst1.executor": "Run",
+    "Application.TaxaEstacionamento.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Test1.executor": "Run",
+    "Application.TestPolicy.executor": "Run",
+    "Application.TestProdutos.executor": "Run",
+    "Application.TestRational.executor": "Run",
+    "Application.TicTacToeTest.executor": "Debug",
+    "Application.TriangulosPitagoricos.executor": "Run",
+    "Application.numerosAleatorios.executor": "Run",
+    "Application.org.maumas.ZZFazendoADiferencaExercicios.capitulo7.Test.executor": "Run",
+    "Application.switchCaseExample.executor": "Run",
+    "Application.test.executor": "Run",
+    "Application.whileExamples1.executor": "Run",
+    "JUnit.SimpletronTest.executor": "Run",
+    "JUnit.SimpletronTest.test.executor": "Run",
+    "JUnit.SimpletronTest.test2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Maumaus/Documents/estudos/java/livro-java-como-programar/src/main/java/org/maumas/AFCapitulo7/exercicios/AM7_30",
+    "onboarding.tips.debug.path": "C:/Users/Maumaus/Documents/estudos/java/livro-java-como-programar/src/main/java/org/maumas/Main.java",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Maumaus\Documents\estudos\java\livro-java-como-programar\src\main\java\org\maumas\AFCapitulo7\exercicios\AM7_30" />
@@ -148,13 +152,26 @@
       <recent name="org.maumas.AFCapitulo7.exercicios.AM7_30" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test1">
+  <component name="RunManager" selected="Application.TicTacToeTest">
     <configuration name="SimpletronTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AM7_30.SimpletronTest" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AM7_30.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.Test" />
+      <module name="livro-java-como-programar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.maumas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,60 +192,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpletronTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRational" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.AGCapitulo8.exercicios.AC15.TestRational" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AM7_30.*" />
+          <option name="PATTERN" value="org.maumas.AGCapitulo8.exercicios.AC15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.maumas.AFCapitulo7.exercicios.AM7_30" />
-      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AM7_30.SimpletronTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpletronTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicTacToeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.maumas.AGCapitulo8.exercicios.AC8_17.TicTacToeTest" />
       <module name="livro-java-como-programar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AM7_30.*" />
+          <option name="PATTERN" value="org.maumas.AGCapitulo8.exercicios.AC8_17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.maumas.AFCapitulo7.exercicios.AM7_30" />
-      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AM7_30.SimpletronTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpletronTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="livro-java-como-programar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.maumas.AFCapitulo7.exercicios.AM7_30.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.maumas.AFCapitulo7.exercicios.AM7_30" />
-      <option name="MAIN_CLASS_NAME" value="org.maumas.AFCapitulo7.exercicios.AM7_30.SimpletronTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TicTacToeTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestRational" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.SimpletronTest" />
-        <item itemvalue="JUnit.SimpletronTest.test" />
-        <item itemvalue="JUnit.SimpletronTest.test2" />
-        <item itemvalue="JUnit.SimpletronTest" />
       </list>
     </recent_temporary>
   </component>
@@ -449,7 +445,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710858117926</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: another exercise">
+      <option name="closed" value="true" />
+      <created>1710860550111</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1710860550111</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -464,7 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init commit" />
     <MESSAGE value="feat: adding example of switch statement" />
     <MESSAGE value="feat: exercicios capitulo 5" />
     <MESSAGE value="feat: exercicios capitulo" />
@@ -489,7 +492,8 @@
     <MESSAGE value="feat: exercicio LebreETartaruga" />
     <MESSAGE value="feat: exercicio fibonacci" />
     <MESSAGE value="feat: adding simple example" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adding simple example" />
+    <MESSAGE value="feat: another exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: another exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

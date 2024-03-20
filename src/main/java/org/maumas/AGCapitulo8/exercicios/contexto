@@ -34,39 +34,6 @@ Escreva um programa para testar a classe IntegerSet.
 Instancie vários objetos IntegerSet.
 Teste se todos os seus métodos funcionam adequadamente.
 
-8.15 (Números racionais)
-Crie uma classe chamada Rational para realizar aritmética com frações.
-Escreva um programa para testar sua classe.
-Use variáveis de inteiros para representar as variáveis de instância private da classe — o numerator e o denominator.
-
-Forneça um construtor que permita que um objeto dessa classe seja inicializado quando ele for declarado.
-O construtor deve armazenar a fração em uma forma reduzida.
-A fração 2/4 é equivalente a 1/2 e seria armazenada no objeto como 1 no numerator e 2 no denominator.
-Forneça um construtor sem argumento com valores padrão caso nenhum inicializador seja fornecido.
-
-Forneça métodos public que realizam cada uma das operações a seguir:
-a) Somar dois números Rational: o resultado da adição deve ser armazenado na forma reduzida. Implemente isso como um método static.
-b) Subtrair dois números Rational: o resultado da subtração deve ser armazenado na forma reduzida. Implemente isso como um método static.
-c) Multiplicar dois números Rational: o resultado da multiplicação deve ser armazenado na forma reduzida. Implemente isso como um método static.
-d) Dividir dois números Rational: o resultado da divisão deve ser armazenado na forma reduzida. Implemente isso como um método static.
-e) Retorne uma representação String de um número Rational na forma a/b, onde a é o numerator e b é o denominator.
-f) Retorne uma representação String de um número Rational no formato de ponto flutuante.
-(Considere a possibilidade de fornecer capacidades de formatação que permitam que o usuário da classe especifique o número de
-dígitos de precisão à direita do ponto de fração decimal.)
-
-8.16 (Classe Huge Integer)
-Crie uma classe HugeInteger que utiliza um array de 40 elementos de dígitos para armazenar inteiros com até 40 dígitos.
-Forneça os métodos parse, toString, add e subtract.
-O método parse deve receber uma String, extrair cada dígito usando o método charAt e colocar o valor inteiro equivalente de cada dígito no array de inteiros.
-
-Para comparar objetos HugeInteger, forneça os métodos a seguir: isEqualTo, isNotEqualTo, isGreaterThan, isLessThan, isGreaterThanOrEqualTo e isLessThanOrEqualTo.
-Cada um destes é um método predicado que retorna true se o relacionamento estiver contido entre os dois objetos HugeInteger e retorna false se o relacionamento não estiver contido.
-Forneça um método predicado isZero.
-
-Se você se sentir ambicioso, forneça também os métodos multiply, divide e remainder.
-[Observação: valores boolean primitivos podem ser gerados como as palavras “true” ou “false” com o especificador de formato %b.]
-
-
 8.17 (Jogo da velha)
 Crie uma classe TicTacToe que permitirá escrever um programa para reproduzir o jogo da velha.
 A classe contém um array bidimensional privado 3 por 3.
